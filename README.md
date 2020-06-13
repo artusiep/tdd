@@ -4,9 +4,18 @@
 ### Commands
 
 #### Setup 
+Linux/MacOS
 ```
 make init-project
+. venv/bin/activate; 
 ```
+Windows
+```
+pip install virtualenv
+virtualenv venv
+venv\Scripts\activate; 
+```
+
 Look at targets in Makefile in order to see examples of execution of code.
 
 Currently available make targets:
@@ -33,8 +42,16 @@ To move in interactive version of program use keyboard arrows
 ### Komendy 
 
 #### Inicjalizacja
+Linux/MacOS
 ```
 make init-project
+. venv/bin/activate; 
+```
+Windows
+```
+pip install virtualenv
+virtualenv venv
+venv\Scripts\activate; 
 ```
 Spójrz na cele w Makefile, aby zobaczyć przykłady wykonania kodu.
 

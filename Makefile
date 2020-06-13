@@ -2,8 +2,7 @@ init-project:
 	python -m venv venv
 	( \
 		. venv/bin/activate; \
-		pip3 install -r server/requirements.txt; \
-		pip3 install -r cloudformation/requirements.txt; \
+		pip3 install -r requirements.txt; \
 	)
 
 run-trivial:

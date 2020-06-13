@@ -21,7 +21,7 @@ def execute_on_answers(answers, language):
     except AssertionError:
         pass
     if answers['section'] == language._("exit"):
-        exit(1)
+        exit(0)
 
 
 def main():

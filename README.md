@@ -51,7 +51,7 @@ Windows
 ```
 pip install virtualenv
 virtualenv venv
-venv\Scripts\activate; 
+venv\Scripts\activate
 ```
 Spójrz na cele w Makefile, aby zobaczyć przykłady wykonania kodu.
 
